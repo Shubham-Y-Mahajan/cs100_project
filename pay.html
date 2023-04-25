@@ -1,0 +1,35 @@
+<html>
+<body>
+    
+<form action="Thank_you.php" method="post">
+    CardHolder Name: <input type="text" name="Cardholder" required><br><br>
+    <label for="bank">Bank:</label> 
+    <select id="bank" name="bank" required>
+    <option value="ICICI">ICICI</option>
+    <option value="HDFC">HDFC</option>
+    <option value="AXIS">AXIS</option>
+    <option value="SBI">SBI</option>
+    <option value="HSBC">HSBC</option>
+    <option value="PNB">PNB</option>
+   
+    </select>
+
+
+Debit Card Number:
+<input type="tel" id="1card" name="onecard" placeholder="xxxx" pattern="[0-9]{4}" required>
+<input type="tel" id="2card" name="twocard" placeholder="xxxx" pattern="[0-9]{4}" required>
+<input type="tel" id="3card" name="threecard" placeholder="xxxx" pattern="[0-9]{4}" required>
+<input type="tel" id="4card" name="fourcard" placeholder="xxxx" pattern="[0-9]{4}" required><br><br>
+
+
+PIN: <input type="password" name="Pin" required>
+
+
+ 
+</p>
+
+<input type="submit">
+</form>
+<a href="confirm_booking.php">Go back</a><br>
+</body>
+</html>

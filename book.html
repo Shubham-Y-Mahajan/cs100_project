@@ -1,0 +1,73 @@
+<html>
+    <body>
+        <form action="booked.php" method="post">
+            <label for="event">Type of Event:</label> 
+            <select id="event" name="event" required>
+            <option value="1">Birthday Party</option>
+            <option value="2">Wedding Reception</option>
+            <option value="2">Engagement</option>
+            <option value="1.5">Corporate Event</option>
+            <option value="1">Baby Shower</option>
+            <option value="1.25">Other</option>
+           
+            </select>
+            <br>
+        Date:
+        <input type="date" id="bookingdate" name="eventdate" required><br>
+
+        <label for="food">Choose a Food package:</label>
+        <select id="food" name="food" required>
+        <option value="1">one</option>
+        <option value="1.5">two</option> 
+        <option value="2">three</option> <!-- * 250 + event *62.5  = cost pp -->
+        <option value="2.5">four</option>
+        </select>
+
+        Estimated number of guests:
+        <input type="text" name="guests" required><br><br>
+
+        <label for="district">District:</label> <!-- *3* number of guests + cost per plate = additional transportation cost -->
+        <select id="district" name="district" required>
+        <option value="2.3">Balod</option>
+        <option value="1.8">Baloda Bazar</option>
+        <option value="10.8">Balrampur</option>
+        <option value="9.7">Bastar</option>
+        <option value="14.1">Bijapur</option>
+        <option value="3.8">Bilaspur</option>
+        <option value="11.3">Dantewada</option>
+        <option value="2.4">Dhamtari</option>
+        <option value="1.2">Durg</option>
+        <option value="2.2">Gariaband</option>
+        <option value="5.2">Janjgir-Champa</option>
+        <option value="7.3">Jashpur</option>
+        <option value="4.4">Kabirdham</option>
+        <option value="6.9">Kanker</option>
+        <option value="8.8">Kondagaon</option>
+        <option value="6.7">Korba</option>
+        <option value="10">Koriya</option>
+        <option value="1.4">Mahasamund</option>
+        <option value="3.5">Mungeli</option>
+        <option value="8.6">Narayanpur</option>
+        <option value="7.2">Raigarh</option>
+        <option value="0">Raipur</option>
+        <option value="2.7">Rajnandgaon</option>
+        <option value="11.7">Sukma</option>
+        <option value="8.7">Surajpur</option>
+        <option value="14.3">Surguja</option>
+        </select>
+        <br>
+       
+        <p>Location of event(deatiled address):<br/>
+        <textarea rows="10" cols="40" id="inp08" name="location" required></textarea>
+
+        <p>Special Requests:<br/>
+        <textarea rows="10" cols="40" id="inp09" name="requests">Optional</textarea>
+
+
+        <input type="submit">    
+        </form>
+
+        <a href="homepage.html">Logout</a><br>
+        <a href="welcomeuser.php">go back</a><br>
+    </body>
+</html>
