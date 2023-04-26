@@ -27,7 +27,16 @@
 
 <div id="box">
     <span id="login"><span id="q">Already Registered?</span><br><br>
-    <span id="link"><a href="Login.html">Login</a></span></span><br><br><br><br><br><br>
+    <form action="login_user.php" method="post">
+        Enter Username:
+        <input type="text" name="username" required><br><br>
+        Enter Password:
+        <input type="password" name="password" required><br><br>
+        
+        <input type="submit">
+        
+        </form>
+    </span><br><br><br><br><br><br>
 
     <span id="register"><span id="q">Not Registered yet?</span><br><br>
     <span id="link"><a href="register.html">Register</a></span></span>
