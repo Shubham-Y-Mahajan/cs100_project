@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+}
+
+#main{
+    background-color: #ffda05; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 800%; text-decoration-style:solid; color: crimson; font-weight: 800;
+}
+
+
+a:hover{
+    background-color: #55ff00; color: rgb(246, 20, 20);
+}
+
+#link{
+    font-size: 200%; border-block: 5px solid red; background-color: gold;
+}
+
+#q{
+    color:crimson; font-size: 200%; border-block: 5px solid red; background-color: #ffda05; 
+}
+#welcome{
+    color: crimson; font-size: 300%; border-block: 5px solid red; 
+}
+
+#box{
+
+    width: 300px;
+    border: 10px solid red;
+    padding: 50px;
+    margin-left:35%;
+    background-image: url("food1.jpg");
+}
+#tbox{
+    background-image: url("food1.jpg"); block-size: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(85, 255, 0);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+  }
+
+
+
