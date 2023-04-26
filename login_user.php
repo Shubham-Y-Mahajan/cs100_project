@@ -35,12 +35,12 @@
             
             fclose($file);
             $_SESSION["logged_in_user"] = $Username; // note $_Session[loggd in user ] me already ek \n aa gaya hai
-            header("Location:/php_programming/project/welcomeuser.php");           
+            header("Location:/welcomeuser.php");           
             break;
             }
             elseif(strcmp($_POST["password"]."\n",$Password)!=0 )
             {
-                header("Location:/php_programming/project/login.html"); 
+                header("Location:/login.html"); 
                 break;
             }
             
@@ -50,7 +50,7 @@
     if($check==0)
     {
         fclose($file);
-        header("Location:/php_programming/project/homepage.html"); 
+        header("Location:/homepage.html"); 
     }
     
 ?>

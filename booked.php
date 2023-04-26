@@ -12,7 +12,7 @@
         
         if(strcmp($_SESSION["logged_in_user"],fgets($file))==0)
         {
-            header("Location:/php_programming/project/booking_already_exists.html");
+            header("Location:/booking_already_exists.html");
            
             $check++;
             break;
@@ -30,7 +30,7 @@
     fwrite($file,$_POST["location"]."\n");
     fwrite($file,$_POST["requests"]."\n");
     fclose($file);
-    header("Location:/php_programming/project/confirm_booking.php");
+    header("Location:/confirm_booking.php");
     
     }
     
