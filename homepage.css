@@ -3,12 +3,12 @@
 }
 
 #main{
-    background-color: #ffda05; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 800%; text-decoration-style:solid; color: crimson; font-weight: 800;
+    background-color: black; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 800%; text-decoration-style:solid; color: gold; font-weight: 800;
 }
 
 
 a:hover{
-    background-color: #55ff00; color: rgb(246, 20, 20);
+    background-color: black; color: rgb(246, 20, 20);
 }
 
 #link{
@@ -27,8 +27,8 @@ a:hover{
     width: 300px;
     border: 10px solid red;
     padding: 50px;
-    margin-left:35%;
-    background-image: url("food1.jpg");
+    margin-left:70%;
+    background-color:orange;
 }
 #tbox{
     background-image: url("food1.jpg"); block-size: 100%;
@@ -40,7 +40,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(85, 255, 0);
+    background-color: gold;
   }
   
   li {
