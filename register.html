@@ -1,27 +1,60 @@
 <html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="register.css"
+    </head>
 <body>
 
+    <p id="main">S&S</p>
+
+    <ul>
+        <li><a href="register.html">register</a></li>
+        <li><a href="Login.html">login</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+ 
+
+
+    </ul>
+
+
+
+    <div id="welcome">Thank you for being a part of our Family</div><br><br><br><br>
+    
+    
+<div id="tbox">
+<br>
+
+
+
+<div id="box">
+<br><br><br>
 <form action="registered.php" method="post">
+    <div id="welcome">Registration Form</div>
+    <br><br><br>
 Name: <input type="text" name="Name" required><br><br>
 E-mail: <input type="text" name="Email" required><br><br>
-Contact NUmber:
+Contact Number:
 
 <input type="tel" id="phone" name="phone" placeholder="+91" pattern="[0-9]{10}" required><br><br>
 <small>Example: 8879466601</small><br><br>
 
-<p>Gender:<br/>
- <input type="radio" name="Gender" value="Male" required>MALE<br>
+<p>Gender:
+ <input type="radio" name="Gender" value="Male" required>MALE
  <input type="radio" name="Gender" value="Female" required>FEMALE
  </p>
 Create Username: <input type="text" name="Username" required><br><br>
 Create Password: <input type="password" name="Password" required>
 
-
- 
 </p>
 
 <input type="submit">
 </form>
+</div>
 <a href="homepage.html">go back</a><br>
+</div>
+
 </body>
 </html>

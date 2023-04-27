@@ -1,5 +1,31 @@
 <html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="book.css">
+    </head>
     <body>
+
+        <p id="main">S&S</p>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Logout">Logout</a></li>
+
+     
+    
+    
+        </ul>
+    
+    
+    
+        <div id="welcome">Tell us your Requirements</div><br><br><br><br>
+        <div id="tbox">
+        <br>
+
+        <div id="box">
         <form action="booked.php" method="post">
             <label for="event">Type of Event:</label> 
             <select id="event" name="event" required>
@@ -11,17 +37,17 @@
             <option value="1.25">Other</option>
            
             </select>
-            <br>
+            <br><br>
         Date:
-        <input type="date" id="bookingdate" name="eventdate" required><br>
-
+        <input type="date" id="bookingdate" name="eventdate" required>
+        <br><br>
         <label for="food">Choose a Food package:</label>
         <select id="food" name="food" required>
         <option value="1">one</option>
         <option value="1.5">two</option> 
         <option value="2">three</option> <!-- * 250 + event *62.5  = cost pp -->
         <option value="2.5">four</option>
-        </select>
+        </select><br><br>
 
         Estimated number of guests:
         <input type="text" name="guests" required><br><br>
@@ -55,19 +81,23 @@
         <option value="8.7">Surajpur</option>
         <option value="14.3">Surguja</option>
         </select>
-        <br>
+        <br><br>
        
         <p>Location of event(deatiled address):<br/>
         <textarea rows="10" cols="40" id="inp08" name="location" required></textarea>
-
+        <br><br>
         <p>Special Requests:<br/>
         <textarea rows="10" cols="40" id="inp09" name="requests">Optional</textarea>
-
+        <br><br>
 
         <input type="submit">    
         </form>
 
-        <a href="homepage.html">Logout</a><br>
-        <a href="welcomeuser.php">go back</a><br>
+    </div>
+        <br>
+        <span id="link"><a href="homepage.html">Logout</a><br></span><br>
+        <span id="link"><a href="welcomeuser.php">Go Back</a><br></span>
+
+    </div>
     </body>
 </html>

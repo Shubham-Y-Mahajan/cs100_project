@@ -27,8 +27,12 @@ a:hover{
     width: 300px;
     border: 10px solid red;
     padding: 50px;
-    margin-left:70%;
+    margin-left:35%;
     background-color:orange;
+    font-weight: 400;
+    font-size: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 #tbox{
     background-image: url("food1.jpg"); block-size: 100%; background-attachment: fixed;
@@ -51,7 +55,3 @@ ul {
     display: block;
     padding: 8px;
   }
-
-
-
-
