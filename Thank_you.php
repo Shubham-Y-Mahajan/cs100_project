@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$file=fopen('payments.txt','a+');
+$file=fopen('textfiles/payments.txt','a+');
 fwrite($file,$_SESSION["logged_in_user"]);
 fwrite($file,$_POST["Cardholder"]."\n");
 fwrite($file,$_SESSION["price"]."\n");

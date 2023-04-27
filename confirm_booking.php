@@ -28,7 +28,7 @@
 
 <div id="box"><div id="text">
 <?php 
-$file1=fopen('bookings.txt','r');
+$file1=fopen('textfiles/bookings.txt','r');
 
 
 

@@ -15,7 +15,7 @@ if(strcmp($_POST["Username"],$_POST["Name"])==0||
 
 if($distinctcheck==0)
 {
-    $file=fopen('clients.txt','a+');
+    $file=fopen('textfiles/clients.txt','a+');
 
 
 

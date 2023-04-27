@@ -1,6 +1,6 @@
 <?php
     session_start(); // started session
-    $file=fopen('clients.txt','r');
+    $file=fopen('textfiles/clients.txt','r');
 
 
 
