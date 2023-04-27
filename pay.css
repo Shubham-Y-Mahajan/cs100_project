@@ -16,7 +16,7 @@ a:hover{
 }
 
 #q{
-    color:crimson;  border-block: 5px solid red; background-color: #ffda05; 
+    color:crimson; font-size: 200%; border-block: 5px solid red; background-color: #ffda05; 
 }
 #welcome{
     color: crimson; font-size: 300%; border-block: 5px solid red; 
@@ -24,14 +24,16 @@ a:hover{
 
 #box{
 
-    width: 300px;
+    width: 1200px;
     border: 10px solid red;
     padding: 50px;
-    margin-left:35%;
+    margin-left:10%;
     background-color:orange;
+    font-size: 200%;
 }
 #tbox{
     background-image: url("food1.jpg"); block-size: 100%; background-attachment: fixed;
+
 }
 
 
@@ -52,7 +54,10 @@ ul {
     padding: 8px;
   }
 
-
+  #text{
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
 
 
 

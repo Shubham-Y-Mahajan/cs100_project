@@ -1,7 +1,27 @@
 <?php session_start(); ?>
 <html>
+<head>
+        <title>Cancelled</title>
+        <link rel="stylesheet" href="homepage.css">
+    </head>
     
     <body>
+
+
+
+<div id="main">S&S</div>
+
+    <ul>
+        <li><a href="homepage.html">Logout</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+ 
+
+
+    </ul>
+<div id="welcome">
 <?php
 /////////////////////////////////////////    
     $file1=fopen('bookings.txt','r');
@@ -68,7 +88,7 @@
     if($check==0)
     {
         
-        echo "No bookings were made";
+        echo "No bookings were made ";
         
     }
     else
@@ -179,8 +199,9 @@ else
     
 ?>
 <br>
-<a href="welcomeuser.php">Dashboard</a><br>
-<a href="homepage.html">Logout</a><br>
+</div>
+<span id="link"><br><br><a href="welcomeuser.php">Dashboard</a><br><br><br>
+<a href="homepage.html">Logout</a><br></span>
 </body>
 </html>
 
