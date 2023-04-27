@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <?php
    
-   $file=fopen('bookings.txt','r');
+   $file=fopen('textfiles/bookings.txt','r');
 
    $datecheck=0;
    while (!feof($file)) 
@@ -27,7 +27,7 @@
  ////////////////////// wrinting in file
  if($datecheck==0)
  {
-    $file=fopen('bookings.txt','a+');
+    $file=fopen('textfiles/bookings.txt','a+');
 
 
 

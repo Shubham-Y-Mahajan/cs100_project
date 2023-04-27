@@ -3,7 +3,7 @@
 <body>
 
 <?php 
-$file1=fopen('bookings.txt','r');
+$file1=fopen('textfiles/bookings.txt','r');
 
 
 

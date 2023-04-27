@@ -4,8 +4,8 @@
     <body>
 <?php
 /////////////////////////////////////////    
-    $file1=fopen('bookings.txt','r');
-    $file2=fopen('temp.txt','w');
+    $file1=fopen('textfiles/bookings.txt','r');
+    $file2=fopen('textfiles/temp.txt','w');
 
 
 //  bookings file
@@ -87,8 +87,8 @@
         fclose($file2);
     }
 /////////////////////////////////////////////////////////////////////////////////////
-$file1=fopen('payments.txt','r');
-$file2=fopen('temp.txt','w');
+$file1=fopen('textfiles/payments.txt','r');
+$file2=fopen('textfiles/temp.txt','w');
 
 
 //  bookings file
@@ -161,8 +161,8 @@ if($check==0)
 }
 else
 {
-    $file1=fopen('payments.txt','w');
-    $file2=fopen('temp.txt','r');
+    $file1=fopen('textfiles/payments.txt','w');
+    $file2=fopen('textfiles/temp.txt','r');
     while (!feof($file2)) 
     {
        fwrite($file1,fgets($file2));
