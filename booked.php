@@ -1,6 +1,32 @@
 <?php session_start(); ?>
 <?php
    
+   $file=fopen('bookings.txt','r');
+
+   $datecheck=0;
+   while (!feof($file)) 
+    {
+       
+        
+        if(strcmp($_POST["eventdate"]."\n",fgets($file))==0)
+        {
+           
+           
+            $datecheck++;
+            header("Location:/date_already_booked.html");
+            break;
+            
+        }
+    }
+   
+   
+   
+   
+   
+   
+ ////////////////////// wrinting in file
+ if($datecheck==0)
+ {
     $file=fopen('bookings.txt','a+');
 
 
@@ -12,9 +38,10 @@
         
         if(strcmp($_SESSION["logged_in_user"],fgets($file))==0)
         {
+            $check++;
             header("Location:/booking_already_exists.html");
            
-            $check++;
+            
             break;
             
         }
@@ -34,7 +61,7 @@
     
     }
     
-
+ }
 ?>
 <br>
 
