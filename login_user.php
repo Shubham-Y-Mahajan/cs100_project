@@ -40,7 +40,7 @@
             }
             elseif(strcmp($_POST["password"]."\n",$Password)!=0 )
             {
-                header("Location:/login.html"); 
+                header("Location:/retrylogin.html"); 
                 break;
             }
             
@@ -50,7 +50,7 @@
     if($check==0)
     {
         fclose($file);
-        header("Location:/homepage.html"); 
+        header("Location:/retrylogin.html"); 
     }
     
 ?>

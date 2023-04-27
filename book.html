@@ -41,13 +41,55 @@
         Date:
         <input type="date" id="bookingdate" name="eventdate" required>
         <br><br>
-        <label for="food">Choose a Food package:</label>
-        <select id="food" name="food" required>
-        <option value="1">one</option>
-        <option value="1.5">two</option> 
-        <option value="2">three</option> <!-- * 250 + event *62.5  = cost pp -->
-        <option value="2.5">four</option>
+        Choose your food packages:<!-- * 250 + event *62.5  = cost pp   2.5 tak jara tha-->
+        <br>
+
+
+        <label for="Indian_Veg">Indian Veg package:</label>
+        <select id="Indian_Veg" name="veg" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
         </select><br><br>
+
+        <label for="Indian_Non_Veg">Indian Non Veg package:</label>
+        <select id="Indian_Non_Veg" name="nonveg" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br>
+
+        <label for="Chinese">Chinese Package:</label>
+        <select id="Chinese" name="chinese" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br>
+
+        <label for="Mexican">Mexiacan package:</label>
+        <select id="Mexican" name="mexican" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br>
+
+        Choose Additional Live Counters<br>
+        <label for="beverage">Beverage Counter:</label>
+        <select id="beverage" name="beverage" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br>
+        <label for="chaat">Chaat Counter:</label>
+        <select id="chaat" name="chaat" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br>
+        <label for="dosa">Dosa Counter:</label>
+        <select id="dosa" name="dosa" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br>
+        <label for="dessert">Dessert Counter:</label>
+        <select id="dessert" name="dessert" required>
+        <option value="1">Add</option>
+        <option value="0">Do Not Add</option> 
+        </select><br><br> 
 
         Estimated number of guests:
         <input type="text" name="guests" required><br><br>
