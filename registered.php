@@ -1,6 +1,20 @@
-<html>
-<body>
 <?php
+$distinctcheck=0;
+if(strcmp($_POST["Username"],$_POST["Name"])==0||
+    strcmp($_POST["Username"],$_POST["Email"])==0||
+    strcmp($_POST["Username"],$_POST["Password"])==0||
+    strcmp($_POST["Username"],$_POST["Gender"])==0||
+    strcmp($_POST["Username"],$_POST["phone"])==0)
+    {
+        $distinctcheck++;
+        header("Location:/not_distinct.html");
+
+    }
+
+
+
+if($distinctcheck==0)
+{
     $file=fopen('clients.txt','a+');
 
 
@@ -29,8 +43,11 @@
     echo "Registration is successfull";
     }
     fclose($file);
+}
 ?>
 <br>
+<html>
+    <boday>
 <a href="register.html">register here</a><br>
 <a href="Login.html">Login here</a><br>
 </body>
