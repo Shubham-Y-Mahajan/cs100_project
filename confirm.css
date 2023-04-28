@@ -30,6 +30,7 @@ a:hover{
     margin-left:30%;
     background-color:orange;
     text-align: left;
+    border-radius: 20%;
 }
 #tbox{
     background-image: url("food1.jpg"); block-size: 200%; background-attachment: fixed;

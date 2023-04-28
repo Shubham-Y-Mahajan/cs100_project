@@ -29,6 +29,7 @@ a:hover{
     padding: 50px;
     margin-left:35%;
     background-color:orange;
+    border-radius: 20%;
 }
 #tbox{
     background-image: url("food1.jpg"); block-size: 100%; background-attachment: fixed;
