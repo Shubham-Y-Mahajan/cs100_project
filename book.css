@@ -24,14 +24,14 @@ a:hover{
 
 #box{
 
-    width: 300px;
+    width: 500px;
     border: 10px solid red;
-    padding: 50px;
+    padding: 10px;
     margin-left:35%;
     background-color:orange;
 }
 #tbox{
-    background-image: url("food1.jpg"); block-size: 130%; background-attachment: fixed;
+    background-image: url("food1.jpg"); block-size: 200%; background-attachment: fixed;
 }
 
 
@@ -53,5 +53,12 @@ ul {
   }
 
 
+#enlarge{
+    font-size: 200%;
+}
+
+#large{
+    font-size: 150%;
+}
 
 

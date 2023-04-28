@@ -32,7 +32,7 @@ a:hover{
     text-align: left;
 }
 #tbox{
-    background-image: url("food1.jpg"); block-size: 100%; background-attachment: fixed;
+    background-image: url("food1.jpg"); block-size: 200%; background-attachment: fixed;
 }
 
 

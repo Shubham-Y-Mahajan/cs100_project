@@ -1,7 +1,7 @@
 <html>
     <head>
-        <title>Home Page</title>
-        <link rel="stylesheet" href="homepage.css">
+        <title>Booking</title>
+        <link rel="stylesheet" href="book.css">
     </head>
     <body>
 
@@ -13,10 +13,6 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#Logout">Logout</a></li>
-
-     
-    
-    
         </ul>
     
     
@@ -26,6 +22,7 @@
         <br>
 
         <div id="box">
+        <div id="large">
         <form action="booked.php" method="post">
             <label for="event">Type of Event:</label> 
             <select id="event" name="event" required>
@@ -42,7 +39,7 @@
         <input type="date" id="bookingdate" name="eventdate" required>
         <br><br>
         Choose your food packages:<!-- summation * 100 + event *50  = cost pp   -->
-        <br>
+        <br><br>
 
 
         <label for="Indian_Veg">Indian Veg package:</label>
@@ -134,6 +131,7 @@
 
         <input type="submit">    
         </form>
+    </div>
 
     </div>
         <br>
