@@ -134,7 +134,7 @@ $file1=fopen('textfiles/bookings.txt','r');
             echo "Location of event :".$address."<br>";
             
 
-           echo " Payment made of INR ".$_SESSION["Price"]."<br>";
+          // echo " Payment made of INR ".$_SESSION["Price"]."<br>"; payemnts file khol aur check kar payment hua bhi hai kya
 
 
             
