@@ -13,33 +13,3 @@ k123
 5.2
 ion digital zone
 veg package should be jain friendly
-s123
-2
-2023-05-17
-2
-0
-1.5
-2
-1
-1
-0
-1
-250
-1.2
-yoyo
-Optional
-s123
-2
-2023-04-05
-2
-2
-1.5
-2
-1
-1
-1
-1
-500
-2.3
-Raipir
-Optional

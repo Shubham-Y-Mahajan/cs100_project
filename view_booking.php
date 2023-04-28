@@ -76,7 +76,7 @@ $file1=fopen('textfiles/bookings.txt','r');
         $District=fgets($file1);
         $address=fgets($file1);
         $request=fgets($file1);
-        
+        $livecount=0;
         
         if(strcmp( $_SESSION["logged_in_user"],$Username)==0 )
         {
@@ -84,7 +84,51 @@ $file1=fopen('textfiles/bookings.txt','r');
             echo "User : ".$Username."<br>";
             
             echo "Date : ".$date."<br>";
-            echo "food package :".$foodpackage."<br>";
+            
+            echo "Food packages chosen :"."<br><br>";
+            if($veg>0)
+            {
+                echo "Indian Veg<br>";
+            }
+            if($nonveg>0)
+            {
+                echo "Indian Non Veg<br>";
+            }
+            if($chinese>0)
+            {
+                echo "Chinese<br>";
+            }
+            if($mexican>0)
+            {
+                echo "Mexican<br>";
+            }
+            echo "<br>Live Counters chosen :"."<br><br>";
+            if($beverage>0)
+            {
+                $livecount++;
+                echo "Beverages<br>";
+            }
+            if($chaat>0)
+            {
+                $livecount++;
+                echo "Chaat<br>";
+            }
+            if($dosa>0)
+            {
+                $livecount++;
+                echo "Dosa<br>";
+            }
+            if($dessert>0)
+            {
+                $livecount++;
+                echo "Desserts<br>";
+            }
+            if($livecount==0)
+            {
+                echo "None<br><br>";
+            }
+            echo"<hr>";
+
             echo " number of guests :".$guest."<br>";
           
             echo "Location of event :".$address."<br>";

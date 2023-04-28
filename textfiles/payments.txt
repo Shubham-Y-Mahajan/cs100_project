@@ -3,11 +3,6 @@ Aditi
 31349.178
 SBI
 2567
-s123
-shubham
-225763.5
-ICICI
-4444
 k123
 kunal
 
@@ -22,29 +17,4 @@ k123
 kunal
 
 AXIS
-1234
-s123
-shubham
-282433
-ICICI
-7346
-s123
-Smit
-743046
-ICICI
-1234
-s123
-Smit
-743046
-ICICI
-1234
-s123
-Smit
-743046
-ICICI
-1234
-s123
-Smit
-743046
-ICICI
 1234

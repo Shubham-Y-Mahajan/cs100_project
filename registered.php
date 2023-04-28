@@ -49,7 +49,7 @@ if($distinctcheck==0)
 <html>
     <boday>
 <a href="register.html">register here</a><br>
-<a href="Login.html">Login here</a><br>
+<a href="homepage.html">Login here</a><br>
 </body>
 </html>
 
