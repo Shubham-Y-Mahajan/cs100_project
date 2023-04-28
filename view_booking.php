@@ -37,7 +37,16 @@ $file1=fopen('textfiles/bookings.txt','r');
         }
         $Event=fgets($file1);
         $date=fgets($file1);
-        $foodpackage=fgets($file1);
+        
+        $veg=fgets($file1);
+        $nonveg=fgets($file1);
+        $chinese=fgets($file1);
+        $mexican=fgets($file1);
+        $beverage=fgets($file1);
+        $chaat=fgets($file1);
+        $dosa=fgets($file1);
+        $dessert=fgets($file1);
+        
         $guest=fgets($file1);
         $District=fgets($file1);
         $address=fgets($file1);
@@ -56,7 +65,7 @@ $file1=fopen('textfiles/bookings.txt','r');
             echo "Location of event :".$address."<br>";
             
 
-           echo " Payment made of INR ".$_SESSION["price"]."<br>";
+           echo " Payment made of INR ".$_SESSION["Price"]."<br>";
 
 
             

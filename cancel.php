@@ -54,7 +54,16 @@
         }
         $Event=fgets($file1);
         $date=fgets($file1);
-        $foodpackage=fgets($file1);
+
+        $veg=fgets($file1);
+        $nonveg=fgets($file1);
+        $chinese=fgets($file1);
+        $mexican=fgets($file1);
+        $beverage=fgets($file1);
+        $chaat=fgets($file1);
+        $dosa=fgets($file1);
+        $dessert=fgets($file1);
+
         $guest=fgets($file1);
         $District=fgets($file1);
         $address=fgets($file1);
@@ -72,7 +81,16 @@
             fwrite($file2,$Username);
             fwrite($file2,$Event);
             fwrite($file2,$date);
-            fwrite($file2,$foodpackage);
+
+            fwrite($file2,$veg);
+            fwrite($file2,$nonveg);
+            fwrite($file2,$chinese);
+            fwrite($file2,$mexican);
+            fwrite($file2,$beverage);
+            fwrite($file2,$chaat);
+            fwrite($file2,$dosa);
+            fwrite($file2,$dessert);
+
             fwrite($file2,$guest);
             fwrite($file2,$District);
             fwrite($file2,$address);
