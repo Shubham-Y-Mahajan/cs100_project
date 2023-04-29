@@ -11,7 +11,7 @@
 
 <ul><div id="large">
     <li><a href="homepage.html">Logout</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="contact.html" target="_blank">Contact</a></li>
     <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
 </div>
 </ul>

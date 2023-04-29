@@ -9,15 +9,13 @@ session_start();?>
     <body>
     <div id="main">S&S</div>
 
-    <ul>
-        <li><a href="register.html">register</a></li>
-        <li><a href="Login.html">login</a></li>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-    </ul>
-    <br>
+    <ul><div id="large">
+            <li><a href="homepage.html">Logout</a></li>
+            <li><a href="welcomeuser.php">Home</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+        </div>
+        </ul>
 
 <div id="welcome">
 <?php

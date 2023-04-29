@@ -2,30 +2,28 @@
 <html>
 <head>
         <title>View Bookings</title>
-        <link rel="stylesheet" href="homepage.css">
+        <link rel="stylesheet" href="view_booking.css">
 </head>
 
 <body>
 <div id="main">S&S</div>
 
-    <ul>
-        <li><a href="register.html">register</a></li>
-        <li><a href="Login.html">login</a></li>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-    </ul>
+<ul><div id="large">
+            <li><a href="homepage.html">Logout</a></li>
+            <li><a href="welcomeuser.php">Home</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+        </div>
+        </ul>
 
 
-
-    <div id="welcome">View Your Booking Status</div><br><br><br><br>
+    <div id="welcome">View Your Booking Status</div>
     <div id="tbox">
-    <br>
+    <br><br>
 
 
 <div id="box">
-<div id="enlarge">
+<div id="large">
 
 <?php 
 //////////////////////// Checking for bookings
@@ -146,7 +144,7 @@ fclose($file1);
 
 if($check==0)
 {
-    echo "No bookings were made ! <br>";
+    echo "No bookings were made ! <br><br>";
 
 }
 if ($check>0 && $paycheck==0)

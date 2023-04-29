@@ -11,16 +11,14 @@
 
 <div id="main">S&S</div>
 
-    <ul>
-        <li><a href="homepage.html">Logout</a></li>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
- 
+<ul><div id="large">
+            <li><a href="homepage.html">Logout</a></li>
+            <li><a href="welcomeuser.php">Home</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+        </div>
+        </ul>
 
-
-    </ul>
 <div id="welcome">
 <?php
 /////////////////////////////////////////    
@@ -106,7 +104,7 @@
     if($check==0)
     {
         
-        echo "No bookings were made ";
+        echo "No bookings were made. ";
         
     }
     else
@@ -119,7 +117,7 @@
            
           
         }
-        echo "Your booking has been successfully cancelled <br>";
+        echo "Your booking has been successfully cancelled. <br>";
 
         fclose($file1);
         fclose($file2);
@@ -194,7 +192,7 @@ fclose($file2);
 if($check==0)
 {
     
-    echo "No payments were made";
+    echo "No payments were made.";
     
 }
 else
@@ -218,7 +216,7 @@ else
 ?>
 <br>
 </div>
-<span id="link"><br><br><a href="welcomeuser.php">Dashboard</a><br><br><br>
+<span id="link"><br><a href="welcomeuser.php">Dashboard</a><br><br>
 <a href="homepage.html">Logout</a><br></span>
 </body>
 </html>

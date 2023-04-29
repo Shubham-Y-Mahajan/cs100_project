@@ -8,23 +8,19 @@
 
 <div id="main">S&S</div>
 
-    <ul>
-        <li><a href="register.html">register</a></li>
-        <li><a href="Login.html">login</a></li>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
- 
-
-
-    </ul>
+        <ul><div id="large">
+            <li><a href="homepage.html">Logout</a></li>
+            <li><a href="welcomeuser.php">Home</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+        </div>
+        </ul>
 
 
 
-    <div id="welcome">Welcome To Our Website</div><br><br><br><br>
+    <div id="welcome">Confirm Your Booking</div>
     <div id="tbox">
-    <br>
+    <br><br>
 
 <div id="box"><div id="text">
 <?php 
@@ -79,7 +75,7 @@ $file1=fopen('textfiles/bookings.txt','r');
         $livecount=0;
         if(strcmp( $_SESSION["logged_in_user"],$Username)==0 )
         {
-            echo "<b>User : </b>".$Username."<br><hr size=10px color=red><hr color=black>";
+            echo "<b>User : </b>".$Username."<br><hr size=10px color=black><hr color=black>";
             
             echo "Date : ".$date."<br><br>";
 
