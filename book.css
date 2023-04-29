@@ -1,3 +1,8 @@
+body{
+    background-image:url("food1.jpg");
+}
+
+
 *{
     text-align: center;
 }
@@ -32,7 +37,7 @@ a:hover{
     border-radius: 20%;
 }
 #tbox{
-    background-image: url("food1.jpg"); block-size: 200%; background-attachment: fixed;
+    background-image: url("food1.jpg"); block-size: 400%; background-attachment: fixed;
 }
 
 
