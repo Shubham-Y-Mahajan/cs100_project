@@ -9,15 +9,11 @@
 
     <div id="main">S&S</div>
 
-<ul>
+<ul><div id="large">
     <li><a href="homepage.html">Logout</a></li>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-
-
-
+    <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+</div>
 </ul>
 
  <div id="welcome">  
@@ -29,7 +25,7 @@
 </div>
 
 <div id="tbox">
-
+<br><br><br>
 <div id="box">
     <span id="link"><a href="book.html">Book your service!</a><br><br>
     <a href="surecancel.html">Cancel your Booking</a><br><br>

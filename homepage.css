@@ -8,27 +8,27 @@
 
 
 a:hover{
-    background-color: black; color: rgb(246, 20, 20);
+    background-color: black; color: white;
 }
 
 #link{
-    font-size: 200%; border-block: 5px solid red; background-color: gold;
+    font-size: 200%; background-color: gold;
 }
 
 #q{
-    color:crimson;  border-block: 5px solid red; background-color: #ffda05; 
+    color:black; background-color: gold; 
 }
 #welcome{
-    color: crimson; font-size: 300%; border-block: 5px solid red; 
+    color: black; font-size: 300%; border-block: 5px solid black; background-color: gold
 }
 
 #box{
 
     width: 300px;
-    border: 10px solid red;
+    border: 10px solid black;
     padding: 50px;
     margin-left:35%;
-    background-color:orange;
+    background-color:gold;
     border-radius: 20%;
 }
 #tbox{
