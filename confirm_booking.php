@@ -155,7 +155,8 @@ $file1=fopen('textfiles/bookings.txt','r');
 </div>
 </div>
         
-<span id="link"><br><br><a href="pay.html">Confirm booking & checkout</a><br><br>
+<span id="link"><br><br><a href="pay.html">Confirm booking & Proceed to checkout</a><br><br>
+<a href="welcomeuser.php">Save Booking and return to Dashboard</a><br><br>
 <a href="cancel.php">Cancel Booking Process</a><br></span>
 </body>
 </html>

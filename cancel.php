@@ -129,7 +129,7 @@ $file1=fopen('textfiles/payments.txt','r');
 $file2=fopen('textfiles/temp.txt','w');
 
 
-//  bookings file
+//  payments file
 $check=0;
 $Username=NULL;
 $cardholder=NULL;

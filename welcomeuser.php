@@ -33,7 +33,7 @@
 <div id="box">
     <span id="link"><a href="book.html">Book your service!</a><br><br>
     <a href="surecancel.html">Cancel your Booking</a><br><br>
-    <a href="view_booking.php">View your booking</a><br><br>
+    <a href="view_booking.php">View your booking status</a><br><br>
     <a href="menu.html" target="_blank">Explore Our Menu</a><br><br>
 </span>
 </div>
