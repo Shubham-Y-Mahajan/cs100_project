@@ -39,7 +39,7 @@
         if(strcmp($_SESSION["logged_in_user"],fgets($file))==0)
         {
             $check++;
-            header("Location:/booking_already_exists.html");
+            header("Location:/booking_already_exists.php");
            
             
             break;

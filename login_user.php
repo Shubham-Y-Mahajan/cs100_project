@@ -50,7 +50,7 @@
     if($check==0)
     {
         fclose($file);
-        header("Location:/retrylogin.html"); 
+        header("Location:/register.html"); 
     }
     
 ?>

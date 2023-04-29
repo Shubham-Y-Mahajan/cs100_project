@@ -26,8 +26,9 @@ if($distinctcheck==0)
         
         if(strcmp($_POST["Username"]."\n",fgets($file))==0)
         {
-            echo "Registration is not successfull user already exists!";
+           
             $check++;
+            header("Location:/user_exists.html");
             break;
             
         }
@@ -40,17 +41,12 @@ if($distinctcheck==0)
     fwrite($file,$_POST["Name"]."\n");
     fwrite($file,$_POST["Gender"]."\n");
     fwrite($file,$_POST["phone"]."\n");
-    echo "Registration is successfull";
+    
+    header("Location:/registration_succesfull.html");
     }
     fclose($file);
 }
 ?>
-<br>
-<html>
-    <boday>
-<a href="register.html">register here</a><br>
-<a href="homepage.html">Login here</a><br>
-</body>
-</html>
+
 
         

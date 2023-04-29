@@ -13,14 +13,14 @@
             <li><a href="welcomeuser.php">Home</a></li>
             <li><a href="contact.html" target="_blank">Contact</a></li>
             <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+            <li><a href="about_us.html" target="_blank">About Us</a></li>
         </div>
         </ul>
 
 
-
-    <div id="welcome">Confirm Your Booking</div>
+    <div id="welcome">Welcome To Our Website</div><br><br><br><br>
     <div id="tbox">
-    <br><br>
+    <br>
 
 <div id="box"><div id="text">
 <?php 
@@ -28,7 +28,7 @@ $file1=fopen('textfiles/bookings.txt','r');
 
 
 
-// this is repect to clients file afterwards make it compatible for bookings file
+
     //$check=0;
     $Username=NULL;
     $date=NULL;
@@ -75,7 +75,7 @@ $file1=fopen('textfiles/bookings.txt','r');
         $livecount=0;
         if(strcmp( $_SESSION["logged_in_user"],$Username)==0 )
         {
-            echo "<b>User : </b>".$Username."<br><hr size=10px color=black><hr color=black>";
+            echo "<b>User : </b>".$Username."<br><hr size=10px color=red><hr color=black>";
             
             echo "Date : ".$date."<br><br>";
 
@@ -152,7 +152,7 @@ $file1=fopen('textfiles/bookings.txt','r');
 </div>
         
 <span id="link"><br><br><a href="pay.html">Confirm booking & Proceed to checkout</a><br><br>
-<a href="welcomeuser.php">Save Booking and return to Dashboard</a><br><br>
+<a href="welcomeuser.php">Save Booking and return to Dashboard</a><br><br> 
 <a href="cancel.php">Cancel Booking Process</a><br></span>
 </body>
 </html>

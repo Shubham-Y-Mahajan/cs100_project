@@ -14,6 +14,7 @@ session_start();?>
             <li><a href="welcomeuser.php">Home</a></li>
             <li><a href="contact.html" target="_blank">Contact</a></li>
             <li><a href="menu.html" target="_blank">Explore Our Menu</a></li>
+            <li><a href="about_us.html" target="_blank">About Us</a></li>
         </div>
         </ul>
 
